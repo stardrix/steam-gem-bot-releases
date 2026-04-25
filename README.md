@@ -1,4 +1,4 @@
-# Steam Gem Bot
+# steamtradebots.com - Steam Gem Bot
 
 Automated Steam trading bot for buying and selling **Steam Gems** in exchange for **TF2 Keys** and **Tour of Duty Tickets**.
 
