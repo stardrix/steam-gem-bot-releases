@@ -2,7 +2,6 @@
 
 Automated Steam trading bot for buying and selling **Steam Gems** in exchange for **TF2 Keys** and **Tour of Duty Tickets**.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ Automated Steam trading bot for buying and selling **Steam Gems** in exchange fo
 - Persistent trade history with profit tracking across restarts
 - Auto-updates — new versions install silently in the background
 
----
 
 ## How it works
 
@@ -23,7 +21,6 @@ Automated Steam trading bot for buying and selling **Steam Gems** in exchange fo
 3. Set your buy and sell rates
 4. Start the bot — it handles everything from there
 
----
 
 ## Dashboard
 
@@ -31,7 +28,6 @@ Live overview of the bot's status, inventory, uptime, and recent trades at a gla
 
 ![Dashboard](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Dashboard.png)
 
----
 
 ## Bot Account
 
@@ -39,7 +35,6 @@ Configure your Steam credentials, Web API Key, Shared Secret, Identity Secret, a
 
 ![Bot Account](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Botacc.png)
 
----
 
 ## Rates
 
@@ -52,7 +47,6 @@ Set how many gems the bot gives or requires per TF2 Key and Tour of Duty Ticket.
 
 ![Rates](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Rates.png)
 
----
 
 ## STB Listing
 
@@ -60,7 +54,6 @@ Connect your SteamTradeBots.com Bot API Key to keep your listing live and up to 
 
 ![STB Listing](https://steamtradebots.com/assets/images/Bots/SteamGemBot/STBlisting.png)
 
----
 
 ## Supply Feed
 
@@ -80,7 +73,6 @@ The bot excludes its own listing from the market data so it never undercuts itse
 
 ![Supply Feed](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Supplyfeed.png)
 
----
 
 ## Trade History
 
@@ -92,7 +84,6 @@ Persistent trade log that survives restarts. Filter by **Today**, **7 Days**, or
 
 ![Trade History](https://steamtradebots.com/assets/images/Bots/SteamGemBot/TradeHistory.png)
 
----
 
 ## Deposit
 
@@ -100,7 +91,6 @@ Displays the bot's trade URL so you can send items to the bot directly from anot
 
 ![Deposit](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Deposit.png)
 
----
 
 ## Withdraw
 
@@ -108,7 +98,6 @@ Send gems, TF2 Keys, or Tour of Duty Tickets from the bot to any Steam account. 
 
 ![Withdraw](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Withdraw.png)
 
----
 
 ## Chat Monitor
 
@@ -116,7 +105,6 @@ Live feed of all Steam chat messages and support requests the bot receives. Comm
 
 ![Chat Monitor](https://steamtradebots.com/assets/images/Bots/SteamGemBot/ChatMonitor.png)
 
----
 
 ## Maintenance
 
@@ -129,7 +117,6 @@ Manage the bot's friend list automatically. Configure:
 
 ![Maintenance](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Maintenance.png)
 
----
 
 ## Logs
 
@@ -137,7 +124,6 @@ Raw bot log output. Shows INFO, WARN, and ERROR entries. Supports one-click clea
 
 ![Logs](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Logs.png)
 
----
 
 ## Chat Commands
 
@@ -161,13 +147,11 @@ Users can interact with the bot directly over Steam chat:
 
 > User inventory must be set to **Public** for any command that involves a trade.
 
----
 
 ## Getting a license
 
 Visit **[steamtradebots.com](https://www.steamtradebots.com/)** to get access to the bot.
 
----
 
 ## Support & community
 
@@ -175,6 +159,5 @@ Have questions or need help? Join the Discord:
 
 **[discord.gg/XCtgnPsZFU](https://discord.gg/XCtgnPsZFU)**
 
----
 
 *This repository contains release builds only. New versions are pushed here automatically and installed silently by the app.*
