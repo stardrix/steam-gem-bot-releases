@@ -150,7 +150,10 @@ Users can interact with the bot directly over Steam chat:
 
 ## Getting a license
 
-Visit **[steamtradebots.com](https://www.steamtradebots.com/)** to get access to the bot.
+Visit **[steamtradebots.com](https://www.steamtradebots.com/)** to get access to the bot. You can purchase your license directly from the dashboard on our website.
+
+Not sure if you want to run a bot forever?
+Try out our 6-month plan or get a lifetime license!
 
 
 ## Support & community
