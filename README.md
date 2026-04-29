@@ -21,6 +21,9 @@ Automated Steam trading bot for buying and selling **Steam Gems** in exchange fo
 3. Set your buy and sell rates
 4. Start the bot — it handles everything from there
 
+> [!WARNING]
+> **NOTE:** This application can only run **1 Steam Gem bot**.
+
 
 ## Dashboard
 
