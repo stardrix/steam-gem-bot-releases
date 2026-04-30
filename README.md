@@ -1,6 +1,8 @@
 # Steam Gem Bot
+[![Latest Release](https://img.shields.io/github/v/release/stardrix/steam-gem-bot-releases?label=Latest%20Release&style=for-the-badge)](https://github.com/stardrix/steam-gem-bot-releases/releases/latest)
 
 Automated Steam trading bot for buying and selling **Steam Gems** in exchange for **TF2 Keys** and **Tour of Duty Tickets**.
+
 
 
 ## Features
