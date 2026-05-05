@@ -7,24 +7,22 @@ Automated Steam trading bot for buying and selling **Steam Gems** in exchange fo
 
 ## Features
 
-- Auto-accepts trade offers based on your configured rates — no manual input needed
+- Run **multiple bot accounts** from a single dashboard - each with its own credentials, rates, and config
+- Auto-accepts trade offers based on your configured rates - no manual input needed
 - Live dashboard with inventory, trade history, rates, and logs
 - Chat commands so users can check prices and request trades directly on Steam
-- SteamTradeBots.com listing integration — your bot stays listed and up to date automatically
-- Supply Feed — automatically tracks market rates and undercuts or matches competitors
+- SteamTradeBots.com listing integration - your bot stays listed and up to date automatically
+- Supply Feed - automatically tracks market rates and undercuts or matches competitors
 - Persistent trade history with profit tracking across restarts
-- Auto-updates — new versions install silently in the background
+- Auto-updates - new versions install silently in the background
 
 
 ## How it works
 
 1. Install and activate your license
-2. Add your Steam bot account credentials
+2. Add one or more Steam bot account credentials
 3. Set your buy and sell rates
-4. Start the bot — it handles everything from there
-
-> [!WARNING]
-> **NOTE:** This application can only run **1 Steam Gem bot**.
+4. Start the bot - it handles everything from there
 
 
 ## Dashboard
@@ -32,6 +30,21 @@ Automated Steam trading bot for buying and selling **Steam Gems** in exchange fo
 Live overview of the bot's status, inventory, uptime, and recent trades at a glance.
 
 ![Dashboard](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Dashboard.png)
+
+
+## Multi-Bot Support
+
+Run multiple Steam accounts from one dashboard. Each bot has its own credentials, rates, listing config, and trade history - completely isolated from the others.
+
+- Add or remove bots at any time from the **Bot Account** page
+- Switch between bots using the dropdown in the sidebar
+- The **Bot Overview** page shows all bots at a glance with live status, uptime, and trade counts
+- Start or stop individual bots - or use **Start All** / **Stop All** for everything at once
+
+
+## Bot Overview
+
+Monitor all configured bots from a single grid view. Each card shows live status, uptime, and trade count. Start or stop any bot directly from here without switching accounts.
 
 
 ## Bot Account
@@ -43,7 +56,7 @@ Configure your Steam credentials, Web API Key, Shared Secret, Identity Secret, a
 
 ## Rates
 
-Set how many gems the bot gives or requires per TF2 Key and Tour of Duty Ticket. Changes apply instantly — no restart needed.
+Set how many gems the bot gives or requires per TF2 Key and Tour of Duty Ticket. Changes apply instantly - no restart needed.
 
 | Direction | Meaning |
 |---|---|
