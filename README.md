@@ -1,9 +1,14 @@
 # Steam Gem Bot
 [![Latest Release](https://img.shields.io/github/v/release/stardrix/steam-gem-bot-releases?label=Latest%20Release&style=for-the-badge&color=ff69b4)](https://github.com/stardrix/steam-gem-bot-releases/releases/latest)
 
-Automated Steam trading bot for buying and selling **Steam Gems** in exchange for **TF2 Keys** and **Tour of Duty Tickets**.
+Automated Steam trading bot for buying and selling **Steam Gems** in exchange for **TF2 Keys** and **Tour of Duty Tickets**. Whether you are flipping currencies or fueling the economy of your **Steam card bot for a level up profile**, this bot handles your gem supply automatically. Fully integrated with the #1 verified **Steam bot listing** directory.
 
+## 🌐 The SteamTradeBots Ecosystem
 
+To get the most out of your bot and build trust with your users, take advantage of our full ecosystem:
+
+*   **📈 Get Traffic (Bot Directory):** Don't just run a bot get customers! Submit your account to our official **[Steam Bot Listing](https://www.steamtradebots.com/)** to display your live stock and rates to thousands of users.
+*   **🛡️ Build Trust (Chrome Extension):** Tell your customers to install the **[SteamTradeBots Verified Extension](https://chromewebstore.google.com/detail/steamtradebots-verified-b/ifbjmpaibhdfjemngaajlmijgopcaopk)**. It places a green "Verified Bot" banner directly on your bot's Steam profile, proving your legitimacy and protecting your users from impersonation scams.
 
 ## Features
 
@@ -68,10 +73,9 @@ Set how many gems the bot gives or requires per TF2 Key and Tour of Duty Ticket.
 
 ## STB Listing
 
-Connect your SteamTradeBots.com Bot API Key to keep your listing live and up to date with your current rates and stock automatically.
+Connect your API Key to the #1 verified **Steam bot listing** at SteamTradeBots.com. Keep your listing live and up to date with your current rates and stock automatically, and instantly sync with the STB Chrome Extension for verified profile banners.
 
 ![STB Listing](https://steamtradebots.com/assets/images/Bots/SteamGemBot/STBlisting.png)
-
 
 ## Supply Feed
 
