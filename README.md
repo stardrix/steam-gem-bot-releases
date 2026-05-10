@@ -177,6 +177,17 @@ Visit **[steamtradebots.com](https://www.steamtradebots.com/)** to get access to
 Not sure if you want to run a bot forever?
 Try out our 6-month plan or get a lifetime license!
 
+## Requirements
+
+- Windows 10/11 (x64)
+- Linux (x64)
+- A Steam account dedicated to being the bot
+- Steam Web API Key ([get one here](https://steamcommunity.com/dev/apikey))
+- Shared Secret and Identity Secret from your Steam authenticator (SteamDesktopAuthenticator or WinAuth)
+- A valid Steam Card Bot license
+
+---
+
 
 ## Support & community
 
