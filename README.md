@@ -19,6 +19,7 @@ To get the most out of your bot and build trust with your users, take advantage 
 - SteamTradeBots.com listing integration - your bot stays listed and up to date automatically
 - Supply Feed - automatically tracks market rates and undercuts or matches competitors
 - Persistent trade history with profit tracking across restarts
+- Sack of Gems auto-unpack - when a trade requires a partial gem amount, the bot automatically unpacks only the minimum number of sacks needed to cover the trade; no manual unpacking required
 - Auto-updates - new versions install silently in the background
 
 
