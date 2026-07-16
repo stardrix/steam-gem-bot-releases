@@ -20,6 +20,13 @@ To get the most out of your bot and build trust with your users, take advantage 
 - Supply Feed - automatically tracks market rates and undercuts or matches competitors
 - Persistent trade history with profit tracking across restarts
 - Sack of Gems auto-unpack - when a trade requires a partial gem amount, the bot automatically unpacks only the minimum number of sacks needed to cover the trade; no manual unpacking required
+- Steam rate-limit resilience - smart inventory caching, spaced retries, serialized mobile confirmations with shared backoff, and a minimal background traffic profile keep trades flowing even when Steam throttles busy IPs (VPS-friendly)
+- Optional SteamApis.com inventory mode - bypass Steam's per-IP rate limits entirely (free tier available); ideal for VPS/datacenter hosting
+- Safe with concurrent buyers - items in unaccepted outgoing offers are reserved, so two users trading at the same moment always receive different items; when reserved stock is the bottleneck, the second buyer is politely asked to retry
+- One active trade per user - a user with an open offer who orders again gets their existing offer link back instead of a duplicate offer (admins are exempt)
+- Custom friend-list status - design the bot's "Now Playing" text with live placeholders like `{gems} gems - {buy_tf2}/{sell_tf2}`; stock and rates update in real time
+- One-click Support Report - a button in the Logs tab bundles version, OS, bot state, and recent logs (secrets always redacted) into a single report for fast support; errors carry short reference codes with plain-language explanations
+- Session self-heal and crash safety nets - expired Steam web sessions renew automatically, and unexpected errors are logged and shown instead of taking the app down silently
 - Auto-updates - new versions install silently in the background
 
 
@@ -56,6 +63,12 @@ Monitor all configured bots from a single grid view. Each card shows live status
 ## Bot Account
 
 Configure your Steam credentials, Web API Key, Shared Secret, Identity Secret, and admin settings. All sensitive fields are hidden behind a reveal toggle.
+
+This page also holds the **Inventory Method** setting: leave it on **Steam** (default, free), or switch to **SteamApis** with an API key from [steamapis.com](https://steamapis.com) if your bot runs on a VPS whose IP Steam rate-limits heavily — inventory loading then bypasses Steam's limits entirely. Their free tier (500 requests/month) covers a typical small bot. Restart the bot after changing this setting.
+
+The **Friend-list Status Text** field lets you design what the bot shows as its "game" in friend lists, built from live values: `{gems}` `{keys_tf2}` `{keys_tod}` and the rates `{buy_tf2}` `{sell_tf2}` `{buy_tod}` `{sell_tod}` — e.g. `{gems} gems - {buy_tf2}/{sell_tf2} (!Help)`. It updates automatically as stock and rates change; leave it empty for the default.
+
+> **VPS tip:** Steam rate-limits by IP, and budget hosting ranges shared with many other bots often arrive pre-throttled. We recommend a premium VPS provider with a clean, dedicated IP. Quick test on any new VPS: open `https://steamcommunity.com/inventory/<your-bot-steamid64>/753/6` in a browser — a JSON response means the IP is fine; an immediate error on the first request means the range is throttled.
 
 ![Bot Account](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Botacc.png)
 
@@ -144,6 +157,8 @@ Manage the bot's friend list automatically. Configure:
 ## Logs
 
 Raw bot log output. Shows INFO, WARN, and ERROR entries. Supports one-click clear.
+
+The **🛟 Support Report** button gathers everything support needs — app version, OS, bot state, and the recent log — into one report, copied to your clipboard and saved as a file. Passwords, secrets, and API keys are never included. If something goes wrong, send that one paste instead of screenshots.
 
 ![Logs](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Logs.png)
 
