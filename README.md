@@ -109,6 +109,7 @@ The bot excludes its own listing from the market data so it never undercuts itse
 
 ![Supply Feed](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Supplyfeed.png)
 
+- Note Automatically dont mean you do it Automatically you still need to apply it Humen safty
 
 ## Trade History
 
