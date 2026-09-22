@@ -155,7 +155,7 @@ A side you never touched keeps its default, so an owner who never opens the page
 
 **Fetch Now is a true preview.** It shows each suggestion with its verdict (applied, capped at your limit, or held), plus what the next automatic run would change. If the feed cannot be fetched, the message tells you what happened and what to do; a rejected key means your Supplier subscription on steamtradebots.com needs checking.
 
-![Supply Feed](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Supplyfe1ed.png)
+![Supply Feed](https://steamtradebots.com/assets/images/Bots/SteamGemBot/Supplyfeed.png)
 
 ## Trade History
 
